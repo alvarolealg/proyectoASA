@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Poppins&family=Raleway:wght@100&display=swap');
+/* navbar - inicio */
+span{
+    color: rgb(28,112,87);
+}
+#menuNavegacion{
+   
+    align-items: end;
+    
+}
+.nav-link .dropdown-toggle{
+    color: white;
+    position: absolute;
+    display: none;
+
+}
+.submenu{
+    position: absolute;
+    font-size: 1rem;
+
+}
+/* navbar - fin */
+/* carrusel */
+#conteItemsCarrusel{
+    height: 400px;
+    overflow: hidden;
+}
+.itemCarrusel{
+    height: 100%;
+    position: relative;
+}
+.tarjetaCarrusel{
+    background-color: rgb(133, 216, 216);
+    height: 100%;
+}
+.flechasCarrusel{
+    background-color: rgba(112, 112, 223, 0.3);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+#tarjetaCarrusel-1{
+    background-color: rgb(188, 129, 249);
+}
+#tarjetaCarrusel-2{
+    background-color: rgb(129, 169, 249);
+}
+#tarjetaCarrusel-3{
+    background-color: rgb(129, 249, 239);
+}
+#tarjetaCarrusel-4{
+    background-color: rgb(175, 45, 22);
+}
+#tarjetaCarrusel-5{
+    background-color: rgb(185, 130, 28);
+}
+#tarjetaCarrusel-6{
+    background-color: rgb(92, 145, 31);
+}
+#tarjetaCarrusel-7{
+    background-color: rgb(31, 184, 125);
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: white;
+}
+
+#contePuntos{
+    background-color: #343A40;
+    display: flex;
+    justify-content: space-around;
+}
+.contepuntos  a{
+    font-size: 1.5em;
+}
+.puntosC{
+    font-style: none;
+    font-size: 2em;
+    color:rgb(28,112,87);
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+/* fin carrusel */
+/* infohome - inicio */
+h1{
+    text-shadow: 5px 5px 5px #ccc;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+.parrafoIH{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: 'Oswald';
+    text-align: inherit;
+}
+h2{
+    text-shadow: 5px 5px 5px #ccc;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.tituloHome{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Oswald';
+    color: rgb(28, 112, 87);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.conteiner{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteiner1{
+    margin-bottom: 1rem;
+    width: 90%;
+}
+.conteiner2{
+    margin-bottom: 2rem;
+    width: 90%;
+}
+.botonVM{
+    padding: .2rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(28,112,87);
+}
+.botonVM-link{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
