@@ -8,18 +8,17 @@
 .navbar{
     background-color:rgb(28,112,87) ;
 }
-.nav-link{
-   color: white;
-   position: relative;
+.submenu{
+    background-color: rgb(28,112,87);
+}
+.linkMenu{
+   color: red; 
 }
 li a:hover{
     color: rgb(131, 114, 114);
 }
 .navbar-toggler{
     color: white;
-}
-.dropdown-toggle{
-    background-color: rgb(28,112,87);
 }
 /* navbar - fin */
 /* carrusel */
@@ -93,13 +92,18 @@ img{
 }
 /* fin carrusel */
 /* infohome - inicio */
-.grid{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    width: 90%;
-    max-width: 1100px;
-    height: 100%;
-    margin: auto;
+.conteiner{
+    display: flex;
+    flex-direction: row;
+}
+#conteiner1{
+    height: auto;
+    margin-right: 1.5rem;
+
+}
+#conteiner2{
+    height: auto;
+    margin-left: 1.5rem;
 }
 h1{
     text-shadow: 5px 5px 5px #ccc;
@@ -115,6 +119,7 @@ h1{
     line-height: 3rem;
     font-family: 'Oswald';
     text-align: inherit;
+    text-align: center;
 }
 h2{
     text-shadow: 5px 5px 5px #ccc;
@@ -138,14 +143,12 @@ h2{
     text-align: center;
     font-family: 'Oswald';
     color: rgb(28, 112, 87);
-    margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 .conteiner{
     margin-top: 1rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-inline: 3rem;
 }
 .conteiner1{
     margin-bottom: 1rem;
@@ -166,3 +169,32 @@ h2{
     color: white;
     font-size: 1.5rem;
 }
+.botonVM-link a:hover{
+    color: white;
+}
+/* info home - fin */
+/* Quienes somos - inicio */
+.titleQS{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Oswald';
+    color: rgb(28, 112, 87);
+    text-shadow: 5px 5px 5px #ccc;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.parrafoQS{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    font-family: 'Oswald';
+    text-align: inherit;
+    text-align: center;
+    margin-left: 5rem;
+}
+/* Quienes somos - fin */
